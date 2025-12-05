@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        h1 {
+            text-align:center;
+        }
+        table{
+            background-color:hotpink;
+            border-collapse:collapse;
+            width:80%;
+            margin:30px auto;
+            
+
+        }
+        td{
+            padding:10px;
+            
+        }
+        table, td, th{
+            border:1px solid black;
+        }
+
+
+        
+    </style>
+</head>
+<body>
+    <h1>İletişim Formunu Doldurunuz</h1>
+    <form>
+        <table>
+            <tr>
+                <td>Ad Soyad:</td>
+                <td><input type="text" name="adsoyad" required placeholder="adınız"</td>
+            </tr>
+            <tr>
+                <td>İlgi Alanları:</td>
+                <td>
+                    <input type="checkbox" id="1" name="ilgialani" value="teknoloji" /><label for="1">Teknoloji</label><br />
+                    <input type="checkbox" id="2" name="ilgialani" value="spor" /><label for="2">Spor</label><br />
+                    <input type="checkbox" id="3" name="ilgialani" value="sanat" /><label for="3">Sanat</label><br />
+                    <input type="checkbox" id="4" name="ilgialani" value="seyehat" /><label for="4">Seyahat</label><br />
+                </td>
+            </tr>
+            <tr>
+                <td>Cinsiyet:</td>
+                <td><input type="radio" id="1" name="cinsiyet" value="kadın" /><label for="1">Kadın</label><br />
+                <input type="radio" id="2" name="cinsiyet" value="erkek" /><label for="2">Erkek</label>
+
+                </td>
+
+            </tr>
+            <tr>
+                <td>Mesajınız:</td>
+                <td><textarea name="message" rows="10" cols="20">Mesajınızı yazın</textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align:center;"><input type="submit" value="Gönder" /></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
