@@ -1,7 +1,7 @@
 # iletisim-formu
 # 💌 İletişim Formu Örneği (HTML/CSS)
 
-Bu depo, temel bir **HTML** ve **CSS** kullanılarak oluşturulmuş basit bir iletişim formu örneğini içerir. Form, kullanıcıdan ad/soyad, ilgi alanları, cinsiyet ve bir mesaj toplamak için çeşitli HTML form elementlerini kullanmaktadır.
+Bu repo, temel bir **HTML** ve **CSS** kullanılarak oluşturulmuş basit bir iletişim formu örneğini içerir. Form, kullanıcıdan ad/soyad, ilgi alanları, cinsiyet ve bir mesaj toplamak için çeşitli HTML form elementlerini kullanmaktadır.
 
 ## 🚀 Genel Bakış
 
